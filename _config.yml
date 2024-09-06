@@ -1,0 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: C++ Programming
+email: shunxin.yang@seu.edu.cn
+description: >- # this means to ignore newlines until "baseurl:"
+  “计算思维与程序实践”是吴健雄学院培养方案中的公共基础课。
+  计算思维是通过分析问题、抽象模型以有效解决问题的思维方式。本科程不仅学习C++编程，更重要的是培养逻辑思维、抽象思维、系统思维，锻炼分析问题和解决问题能力。为应对后续的学习和工作中的挑战奠定基础。
+  “计算思维与程序实践I”主要帮助学习者提升问题求解能力。掌握过程化程序设计方法、了解计算机体系的基本组成，理解常用算法应用，理解数组的应用，掌握指针的概念和基本应用，基础数值计算、向量、矩阵操作，能够在工程场景中解决小规模问题。
+  “计算思维与程序实践II” 主要帮助学习者提升问题规划、分解与资源运用能力。掌握面向对象的思想和程序设计方法，基于类、继承派生、多态和模板等面向对象特征，加深对数组、链表线性数据结构的理解和应用，了解树、图等数据结构的应用。能够运用面向对象方法在工程场景中解决中小规模问题。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yanghuloo.github.io" # the base hostname & protocol for your site, e.g. http://yanghuloo.github.io
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
